@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>SecureAuth Options</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 12px; }
+    input[type=text] { padding: 6px; width: 260px; }
+    button { padding: 6px 10px; margin-left: 6px; }
+    ul { margin-top: 12px; }
+    li { margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+  <h2>SecureAuth — Options</h2>
+  <div>
+    <label>Add domain to whitelist (host only, e.g. example.com):</label><br>
+    <input id="domainInput" type="text" placeholder="example.com" />
+    <button id="addBtn">Add</button>
+  </div>
+
+  <h3>Whitelisted domains</h3>
+  <ul id="whitelist"></ul>
+
+  <script src="options.js"></script>
+</body>
+</html>
